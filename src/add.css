@@ -1,0 +1,39 @@
+.add{
+    width: 100;
+    position: absolute;
+    top: 30%;
+    margin-left: 30%;
+  } 
+  .add1{
+      height:40vh;
+      width: 40vw;
+      border:2px solid black;
+      padding :40px;
+   background-color:rgb(0,0,0,.5) ; 
+      margin: 0px 5px;
+      border-radius: 10px;
+      align-items: center;
+  }   
+  .add1:hover{
+      background: coral;
+      transition: .4s;
+      padding: 45px;
+  }
+.add1 label{
+    font-size: 20px;
+    color:white;
+}
+.add1 input{
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.add1 input:hover{
+    border:3px solid yellowgreen;
+}
+.submit{
+    background: tomato;
+}
+.submit:hover{
+    background:skyblue;
+}

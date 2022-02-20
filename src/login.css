@@ -1,0 +1,56 @@
+.login{
+    height: 100vh;
+  width: 100;
+   background-image:url("./images/img1.jpg");
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   overflow: hidden;
+}
+.l{
+    position: absolute;
+    top:20%;
+color: white;
+margin-left: 35%;
+font-size: 40px;
+}
+.l:hover{
+color: yellow;
+font-size: 50px;
+border-bottom: 2px solid white;
+}
+.login1{
+    position: absolute;
+    top:50%;
+    margin-left: 35%;
+    background-color:white;
+    height:15vh;
+    width: 30vw;
+    border-radius: 15px;
+    align-items: center;
+    padding: 30px;
+}
+.login1:hover{
+background: springgreen;
+padding: 40px;
+}
+.login1 h1{
+    position: relative;
+    font-size: 30px;
+    color: tomato;
+    top:10%
+    
+}
+.login1 button{
+    position: relative;
+    top:15%;
+    color:black;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+}
+.login1 button:hover{
+    background: tomato;
+    transition: .4s;
+    padding: 7px;
+}
